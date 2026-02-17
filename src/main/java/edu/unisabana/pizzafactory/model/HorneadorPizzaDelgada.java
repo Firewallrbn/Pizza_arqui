@@ -8,13 +8,13 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class HorneadorPizzaDelgada {
+public class HorneadorPizzaDelgada implements Horneador {
 
     public void hornear() {
         Logger.getLogger(AmasadorPizzaDelgada.class.getName())
-            .log(Level.INFO, "[~~] Horneando la pizza delgada con masa convencional.");
+                .log(Level.INFO, "[~~] Horneando la pizza delgada con masa convencional.");
 
-        //CODIGO DE LLAMADO AL MICROCONTROLADOR
+        // CODIGO DE LLAMADO AL MICROCONTROLADOR
     }
-    
+
 }
