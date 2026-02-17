@@ -4,7 +4,7 @@ Este proyecto ilustra el uso del patrón Fábrica Abstracta para desacoplar la l
 
 ## Arquitectura de la Solución
 
-Para cumplir con los estándares de diseño sugeridos en la [referencia de clase](https://github.com/CesarAVegaF312/DYAS-GoF-FactoryMethod-ReferenceExample), se ha implementado la siguiente estructura:
+Para cumplir con los estándares de diseño sugeridos en la [referencia de clase](https://github.com/CesarAVegaF312/DYAS-GoF-FactoryMethod-ReferenceExample), se ha implementado el patron de fabrica abtracta.
 
 ### 1. Desacoplamiento de la Instanciación
 Originalmente, el cliente instanciaba directamente las fábricas concretas. Ahora, la clase base `PizzaFactory` actúa como un punto de entrada centralizado:
